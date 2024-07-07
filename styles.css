@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    color: white;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 100px auto;
+    background-color: #000000;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.movie-review {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text h1 {
+    font-size: 54px;
+    text-align: left;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+
+.text p {
+    text-align: left;
+}
+
+.skor{
+    display: flex;
+    flex-direction: row;   
+}
+
+.ratingcontainer{
+    display: flex;
+    flex-direction: column;    
+}
+
+.skor .score {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.movie-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.poster-trailer {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.poster {
+    width: 350px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+
+.trailer iframe {
+    margin-top: -23px;
+    width: 850px;
+    height: 540px;
+}
+
+.genrecontainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.genrecontainer p{
+    margin-right: 10px;
+    border: 1px solid #ffffff9f;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+.description{
+    font-size: 16px;
+}
+
+.description2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.title p{
+    font-size: 16px;
+    padding-right: 580px;
+    padding-bottom:10px ;
+    border-bottom: 1px solid rgba(116, 116, 116, 0.744);
+}
+
+.title span{
+    color: #FFAC33;
+}
+
+.ratingtitle h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.rating1{
+    display: flex;
+    margin-top: 20px;
+}
+.rating2{
+    display: flex;
+    margin-top: 20px;
+}
+.rating3{
+    display: flex;
+    margin-top: 20px;
+}
+
+.rating-category {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.rating-category span {
+    font-size: 24px;
+    text-align: center;
+}
+
+.review {
+    padding: 20px 20px;
+    margin-top: 100px;
+    background-color: #242424;
+    border-radius: 10px;
+}
+
+.review h2 {
+    margin-top: 25px;
+    margin-bottom: -20px;
+}
+
+.coment p{
+    font-size: 16px;
+}
+
+.fotoprofil img {
+    width: 80px; 
+}
+
+.fotoprofil {
+    margin-top: 10px;
+    width: 80px; 
+    max-height: 80px;
+    overflow: hidden; 
+    border-radius: 50%; 
+    margin-right: 20px;
+}
+
+.profil{
+    display: flex;
+    flex-direction: row;
+}
